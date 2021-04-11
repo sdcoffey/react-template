@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "node-sass": "^5.0.0",
+    "plop": "^2.7.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -17,7 +18,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "check:lint": "eslint . --ext=js,jsx,ts,tsx"
+    "check:lint": "eslint . --ext=js,jsx,ts,tsx",
+    "g": "plop"
   },
   "eslintConfig": {
     "extends": [

@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ["dist/", "node_modules"],
+  ignorePatterns: ["dist/", "node_modules", "plopfile.js"],
   extends: [
     "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
